@@ -144,6 +144,11 @@ body{
     
     color: #FFFFFF;
 }
+.world-section img:hover{
+    transform: rotate(60deg);
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    
+}
 .contact-section{
     display: flex;
     flex-direction: column;
