@@ -14,6 +14,8 @@ body{
 .header-section img:hover{
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
+    /* ----------------------------nav section  ---------------------------------*/
 .navbar-section{
     margin-left: 5%;
     
@@ -31,9 +33,13 @@ body{
     color: brown;
     background-color: chocolate;
 }
+
+/* -----------------------font awesome----------------------  */
 .fa-sign-in-alt{
     margin-right: 10px;
 }
+
+/* -----------------------------Watch button styles --------------------------*/
 
 .link-button{
     float: right;
@@ -53,6 +59,8 @@ body{
 /* ---------------------Main section start here------------------------------------------------------ */
 
 
+/* ******************************Container styles *************************************************/
+
 .container{
     background-color: #FFFFFF;
     margin-left: 5%;
@@ -67,6 +75,8 @@ body{
 .flexible-container{
     display: flex;
 }
+
+/* ********************************Player section styles************************************** */
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -138,7 +148,7 @@ body{
 
 
 
-/* World section syles here------------------------ */
+/* World section styles here------------------------ */
 
 
 
@@ -180,13 +190,15 @@ body{
     align-items: center;
 
 }
+
+/* ********************************contact section styles here***************************  */
 .contact-section img{
     margin-left: 20%;
     height: 10%;
     width: 50%;
 }
 
-/* Great player secton styles here-------------------------------------------------------------------------  */
+/* Great player section styles here-------------------------------------------------------------------------  */
 
 .top-players{
     margin-bottom: 30px;
